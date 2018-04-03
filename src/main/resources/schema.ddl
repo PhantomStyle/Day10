@@ -1,0 +1,10 @@
+CREATE TABLE Person (
+  ID   NUMERIC      NOT NULL,
+  NAME VARCHAR(255) NOT NULL,
+  RATE NUMERIC      NOT NULL,
+  PRIMARY KEY (ID)
+);
+
+INSERT into Person (ID, NAME, RATE) VALUEs(1L, "Sasha", 20.0);
+INSERT into Person (ID, NAME, RATE) VALUEs(2L, "Lena", 10.0);
+INSERT into Person (ID, NAME, RATE) VALUEs(3L, "Vasya", 25.0);
